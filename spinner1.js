@@ -1,4 +1,6 @@
 // one full animation of spinner
+process.stdout.write('hello from spinner1.js... \rheyyy\n');
+
 setTimeout(() => {
   process.stdout.write('\r|   ');
 }, 100);
@@ -34,13 +36,22 @@ setTimeout(() => {
 }, 1500);
 
 setTimeout(() => {
-  process.stdout.write('\r|   '); 
+  process.stdout.write('\r|  '); 
 }, 1700);
 
 setTimeout(() => {
-  process.stdout.write('\r/   '); 
+  process.stdout.write('\r/  '); 
 }, 1900);
 
 setTimeout(() => {
-  process.stdout.write('\r\-   '); 
+  process.stdout.write('\r-  '); 
 }, 2100);
+
+setTimeout(() => {
+  process.stdout.write('\r\\  '); 
+}, 2300);
+setTimeout(() => {
+ console.log('\r| '); 
+}, 2500);
+
+
