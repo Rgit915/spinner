@@ -2,7 +2,7 @@
 
 process.stdout.write('hello from spinner2.js... \rheyyy\n');
 
-// we put the spinner characters in to an array 'char'
+// we put the spinner characters in to an array 'characters'
 const characters = ['|', '/', '-', '\\'];
 
 // set the initial delay = 100ms 
